@@ -4,6 +4,10 @@ using System.Text;
 
 namespace POO_Basis
 {
+	/*
+	* Mise en application des constructeurs
+	*/
+	
 	public class Personne
 	{
 		public string _nom;
