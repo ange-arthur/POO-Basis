@@ -10,8 +10,7 @@ namespace POO_Basis
 	{
 		static void Main(string[] args) 
 		{
-			var toto = new Personne("Toto", "Tata", 20);
-			toto.AfficherInfo();
+
 		}
 
 	}
