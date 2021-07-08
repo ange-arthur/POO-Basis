@@ -6,6 +6,10 @@ namespace POO_Basis
 {
     class Indexeur
     {
+        /*
+         * Mise en application d'un indexeur sur une collection
+         */
+
         public readonly Dictionary<string, string> _listeCompteBancaire;
         public string Nom { get; set; }
         public string Prenom { get; set; }
