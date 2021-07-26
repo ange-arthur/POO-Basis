@@ -16,9 +16,9 @@ namespace POO_Basis
             Taux = taux;
         }
 
-        public void AfficherTaux()
+        public override void AfficherInfo()
         {
-            base.AfficherInfoBase();
+            base.AfficherInfo();
             Console.WriteLine("Taux : {0}", Taux);
         }
     }

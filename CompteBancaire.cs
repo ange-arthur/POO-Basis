@@ -19,7 +19,7 @@ namespace POO_Basis
             _nom = nom;
             _prenom = prenom;
         }
-        protected void AfficherInfoBase()
+        public virtual void AfficherInfo()
         {
             Console.WriteLine("Nom : {0}", _nom);
             Console.WriteLine("Prenom : {0}", _prenom);
