@@ -21,5 +21,10 @@ namespace POO_Basis
             base.AfficherInfo();
             Console.WriteLine("Taux : {0}", Taux);
         }
+
+        public override void AfficherTaux()
+        {
+            Console.WriteLine("Taux : {0}", Taux);
+        }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace POO_Basis
 {
-    class CompteBancaire
+    public abstract class CompteBancaire
     {
         /*
          * Mise en application de l'heritage
@@ -25,5 +25,7 @@ namespace POO_Basis
             Console.WriteLine("Prenom : {0}", _prenom);
             Console.WriteLine("IBAN : {0}", IBAN);
         }
+
+        public abstract void AfficherTaux();
     }
 }
