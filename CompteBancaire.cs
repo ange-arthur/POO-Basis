@@ -11,13 +11,18 @@ namespace POO_Basis
          */
 
         public string IBAN { get; set; }
-        public string Nom { get; set; }
-        public string Prenom { get; set; }
+        private string _nom;
+        private string _prenom;
 
-        public void AfficherInfoBase()
+        public CompteBancaire(string nom, string prenom)
         {
-            Console.WriteLine("Nom : {0}", Nom);
-            Console.WriteLine("Prenom : {0}", Prenom);
+            _nom = nom;
+            _prenom = prenom;
+        }
+        protected void AfficherInfoBase()
+        {
+            Console.WriteLine("Nom : {0}", _nom);
+            Console.WriteLine("Prenom : {0}", _prenom);
             Console.WriteLine("IBAN : {0}", IBAN);
         }
     }

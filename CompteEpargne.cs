@@ -9,11 +9,16 @@ namespace POO_Basis
         /*
          * Mise en application de l'heritage
          */
-
         public double Taux { get; set; }
+
+        public CompteEpargne(string nom, string prenom, double taux) : base (nom, prenom)
+        {
+            Taux = taux;
+        }
 
         public void AfficherTaux()
         {
+            base.AfficherInfoBase();
             Console.WriteLine("Taux : {0}", Taux);
         }
     }
